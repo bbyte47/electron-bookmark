@@ -6,7 +6,8 @@
   "scripts": {
     "start": "electron .",
     "watch": "nodemon --exec electron .",
-    "reset": "git reset --hard"
+    "reset": "git reset --hard",
+    "build": "electron-builder --linux"
   },
   "repository": "https://github.com/bbyte47/electron-bookmarker",
   "keywords": [
@@ -14,6 +15,8 @@
     "Master Electron",
     "demo"
   ],
+  "author": "Bbyte47, maggodee",
+  "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^9.3.4",
     "electron-builder": "^22.9.1",
